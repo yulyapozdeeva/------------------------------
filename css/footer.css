@@ -1,0 +1,144 @@
+footer {
+  background-color: #333333;
+}
+
+.footer-body {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 689px;
+  color: white;
+}
+
+.column-2 {
+  height: 460px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 267px;
+  font-family: "Gilroy-Medium", sans-serif;
+}
+
+.column-2__icon-name {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 194px;
+}
+
+.column-2__icon {
+  color: white;
+  margin-right: 13px;
+}
+
+.column-2__name {
+  color: white;
+  font-size: 17px;
+}
+
+.column-2__heading {
+  font-size: 22px;
+  font-family: "Gilroy-Bold", sans-serif;
+  display: block;
+  margin-bottom: 31px;
+}
+
+.column-2 .button-bell {
+  min-width: 262px;
+}
+
+.icon-1 {
+  font-size: 18px;
+}
+
+.icon-2 {
+  font-size: 22px;
+}
+
+.icon-3 {
+  font-size: 21px;
+}
+
+.icon-4 {
+  font-size: 19px;
+}
+
+.icon-5 {
+  font-size: 15px;
+}
+
+.number {
+  font-size: 19px;
+}
+
+.column {
+  margin-right: 54px;
+  max-width: 334px;
+  height: 512px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.column__heading {
+  font-size: 22px;
+  font-family: "Gilroy-Bold", sans-serif;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.column__text {
+  display: block;
+  color: white;
+  font-size: 14px;
+  font-family: "Gilroy-Regular", sans-serif;
+}
+
+.column__text:hover {
+  color: #6d81cc;
+  font-weight: 600;
+}
+
+.logo-about__logo {
+  opacity: 1;
+}
+
+.logo-bottom {
+  opacity: 0.2;
+}
+
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 2px solid #4e4e4e;
+  height: 58px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.copyright__text {
+  color: #565656;
+  font-size: 14px;
+  font-family: "Gilroy-Medium", sans-serif;
+}
