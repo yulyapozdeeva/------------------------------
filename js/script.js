@@ -162,7 +162,7 @@ let myPhotoSlider = new Swiper('.photo-slider', {
 			slidesPerView: 4,
 		}
 	},
-	spaceBetween: 3,
+	spaceBetween: 10,
 })
 
 

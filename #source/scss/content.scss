@@ -510,18 +510,22 @@
 	// .photo-slider__image
 
 	&__image {
-		max-width: 100%;
-		height: 514px;
+		max-width: 223px;
+		//height: 514px;
 		@media (max-width: 1152px) {
 		}
 		@media (max-width: 992px) {
 			//max-width: 170px;
 		}
-		@media (max-width: 740px) {
+		@media (max-width: 700px) {
+			max-width: 550px;
 		}
 		@media (max-width: 600px) {
 			min-width: 450px;
 		}
+	}
+
+	&__img {
 	}
 }
 .swiper-container2 {
@@ -572,7 +576,7 @@
 
 .photo {
 }
-
+//--------------------------------------------------------------------------------------
 .news {
 }
 .container {
@@ -598,19 +602,27 @@
 		max-width: 555px;
 		height: 348px;
 		background: url(/img/1141.png) right no-repeat;
-		border: 0, 5px solid#F2F2F2;
+		border: 2px solid#F2F2F2;
 		box-shadow: 0px 4px 19px 2px rgb(242, 242, 242);
+		//margin: 0 auto;
+		@media (max-width: 1152px) {
+			max-width: 100%;
+			margin-bottom: 25px;
+		}
 	}
 
 	// .cards-news__heading-text
 
 	&__heading-text {
-		height: 269px;
+		height: 290px;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 		min-width: 284px;
 		padding-left: 35px;
+		@media (max-width: 1152px) {
+			justify-content: center;
+		}
 	}
 
 	// .cards-news__heading-1
@@ -620,23 +632,55 @@
 		font-family: "Gilroy-Bold", sans-serif;
 		font-size: 24px;
 		line-height: 28px;
+		@media (max-width: 1152px) {
+			//font-size: 26px;
+			line-height: 28px;
+			font-size: calc(16px + (26 - 16) * (100vw / 1140));
+			padding-bottom: 20px;
+		}
 	}
 
 	// .cards-news__text
+
+	&__text-1 {
+		font-family: "Gilroy-Medium", sans-serif;
+		font-size: 16px;
+		line-height: 22px;
+		@media (max-width: 1152px) {
+			font-size: 20px;
+			line-height: 23px;
+		}
+		@media(max-width: 580px){
+			margin-right: 23px;
+		}
+	}
 
 	&__text {
 		font-family: "Gilroy-Medium", sans-serif;
 		font-size: 16px;
 		line-height: 22px;
+		margin-left: 23px;
+		@media (max-width: 1152px) {
+			font-size: 20px;
+			line-height: 23px;
+			text-align: center;
+		}
 	}
 
 	// .cards-news__image
 
 	&__image-1 {
 		margin-top: 65px;
+		max-width: 300px;
+		//object-fit: cover;
+		@media(max-width: 580px){
+			display: none;
+		}
 	}
 
-	&__img {
+
+	&__img-1 {
+
 	}
 
 	span {
@@ -646,27 +690,62 @@
 	// .cards-news__card
 
 	&__card {
-		// display: flex;
-		// flex-direction: column;
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
 		height: 348px;
 		max-width: 262px;
 		//border: 1px solid red;
-		border: 0, 5px solid#F2F2F2;
+		border: 2px solid#F2F2F2;
 		box-shadow: 0px 4px 19px 2px rgb(242, 242, 242);
 		// justify-content: space-between;
+		@media (max-width: 1152px) {
+			max-width: 45%;
+			//margin-top: 20px;
+			height: 380px;
+			margin-left: 0px;
+		}
+		@media (max-width: 750px) {
+			max-width: 100%;
+			margin-bottom:20px ;
+			//height: 380px;
+		}
 	}
 
 	// .cards-news__img
 
 	&__img {
+		margin: 0 auto;
+		margin-left: 23px;
+		@media (max-width: 1152px) {
+			margin-left: 0px;
+		}
+		@media (max-width: 750px) {
+			width: 300px;
+					}
+	}
+
+	&__image {
+		@media (max-width: 1152px) {
+			text-align: center;
+		}
+		padding-top: 20px;
 	}
 
 	// .cards-news__data
 
 	&__data {
 		font-family: "Gilroy-Medium", sans-serif;
-		font-size: 14px;
+		//font-size: 14px;
 		color: #ababab;
+		font-size: calc(13px + (14 - 13) * (100vw / 1140));
+		margin-left: 23px;
+		@media (max-width: 1152px) {
+			text-align: center;
+		}
+		@media (max-width: 750px) {
+			font-size: calc(16px + (18 - 16) * (100vw / 1140));
+		}
 	}
 
 	// .cards-news__heading
@@ -674,15 +753,21 @@
 	&__heading {
 		font-family: "Gilroy-Bold", sans-serif;
 		font-size: 19px;
+		margin-left: 23px;
+		@media (max-width: 1152px) {
+			text-align: center;
+		}
 	}
 	&__container {
 		margin: 25px;
 		height: 300px;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
+		// display: flex;
+		// flex-direction: column;
+		// justify-content: space-around;
 	}
 }
+
+
 .photo .swiper-button-prev::after,
 .photo .swiper-button-next::after {
 	color: #acacac;
@@ -690,10 +775,13 @@
 	//left: 80px;
 	//right: auto;
 	margin-top: 70px;
+	@media (max-width: 1100px) {
+		display: none;
+	}
 }
 
-.photo .swiper-button-next::after{
-//	color: red !important;
+.photo .swiper-button-next::after {
+	//	color: red !important;
 }
 
 .photo .swiper-button-next,
