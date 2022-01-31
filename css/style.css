@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+@import url("http://fonts.cdnfonts.com/css/Gilroy-bold");
 ::-webkit-scrollbar {
   width: 20px;
   /* ширина нового скроллбара */
@@ -75,7 +75,7 @@ body {
   font-size: 100%;
   line-height: 1;
   font-size: 14px;
-  font-family: "gilroy";
+  font-family: "Gilroy";
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -96,7 +96,7 @@ body.lock {
 input,
 button,
 textarea {
-  font-family: "gilroy";
+  font-family: "Gilroy";
 }
 
 input::-ms-clear {
