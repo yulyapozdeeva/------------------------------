@@ -87,6 +87,45 @@
 //<Подключаем шрифты>=======================================================================================
 
 @import url("http://fonts.cdnfonts.com/css/Gilroy-bold");
+@font-face {
+	font-family: "Gilroy-Bold";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Gilroy-Bold"), url("https://fonts.cdnfonts.com/s/16219/Gilroy-Bold.woff") format("woff");
+}
+@font-face {
+	font-family: "Gilroy-Heavy";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Gilroy-Heavy"), url("https://fonts.cdnfonts.com/s/16219/Gilroy-Heavy.woff") format("woff");
+}
+@font-face {
+	font-family: "Gilroy-Light";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Gilroy-Light"), url("https://fonts.cdnfonts.com/s/16219/Gilroy-Light.woff") format("woff");
+}
+@font-face {
+	font-family: "Gilroy-Medium";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Gilroy-Medium"), url("https://fonts.cdnfonts.com/s/16219/Gilroy-Medium.woff") format("woff");
+}
+@font-face {
+	font-family: "Gilroy-Regular";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Gilroy-Regular"), url("https://fonts.cdnfonts.com/s/16219/Gilroy-Regular.woff") format("woff");
+}
+
+// @font-face {
+// 	font-family: "Conv_10177";
+// 	src: url("fonts/10177.eot");
+// 	src: local("☺"), url("fonts/10177.woff") format("woff"), url("fonts/10177.ttf") format("truetype"),
+// 		url("fonts/10177.svg") format("svg");
+// 	font-weight: normal;
+// 	font-style: normal;
+// }
 
 //</Подключаем шрифты>=======================================================================================
 
