@@ -51,14 +51,14 @@
     max-height: 20px; }
 
 .attestation-body {
-  background-image: url("/img/Group_8.jpg");
+  background-image: url("../img/Group_8.jpg");
   min-height: 376px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
   @media (max-width: 1152px) {
     .attestation-body {
-      background-image: url("/img/Group9.jpg"); } }
+      background-image: url("../img/Group9.jpg"); } }
   @media (max-width: 818px) {
     .attestation-body {
       -ms-flex-wrap: wrap;
@@ -370,7 +370,7 @@
   padding-top: 44px; }
 
 .certificate {
-  background-image: url("/img/Group_11.jpg");
+  background-image: url("../img/Group_11.jpg");
   min-height: 513px;
   background-position: 0 0;
   background-size: 100% auto; }
