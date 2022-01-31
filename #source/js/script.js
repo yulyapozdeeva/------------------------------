@@ -277,7 +277,6 @@ function tip() {
 		$(this).toggleClass('active');
 	});
 }
-new Swiper('.image-slider');
 
-alert('sdf');
+
 

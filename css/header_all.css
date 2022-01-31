@@ -1,39 +1,40 @@
 header {
-  background-image: url("../img/Group_6.jpg");
+  background-image: none;
+  background-color: #f6f6f6;
   max-width: 100%;
-  background-position: center 50%;
   color: #333333;
-  display: block;
+  -webkit-box-shadow: -3px 12px 30px -3px rgba(34, 60, 80, 0.11);
+          box-shadow: -3px 12px 30px -3px rgba(34, 60, 80, 0.11);
+  border-bottom: 1px solid rgba(34, 60, 80, 0.11);
 }
 
 @media (max-width: 767px) {
   header {
-    background-image: url("/img/Group new.jpg");
-    height: 600px;
+    height: 190px;
   }
 }
 
 @media (max-width: 528px) {
   header {
-    background-color: #b3c9ff;
+    height: 270px;
   }
 }
 
 @media (max-width: 411px) {
   header {
-    height: 655px;
-  }
-}
-
-@media (max-width: 356px) {
-  header {
-    height: 695px;
+    height: 320px;
   }
 }
 
 .header-body {
   margin-top: 0px;
-  height: 724px;
+  height: 161px;
+}
+
+@media (max-width: 993px) {
+  .header-body {
+    min-height: 180px;
+  }
 }
 
 .header-top {
@@ -88,7 +89,6 @@ header {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  border: none;
   height: 42px;
 }
 
@@ -204,8 +204,8 @@ header {
 .icons__icon-whatsapp:hover {
   -webkit-box-shadow: 0px 8px 14px rgba(45, 208, 56, 0.5);
           box-shadow: 0px 8px 14px rgba(45, 208, 56, 0.5);
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .icons__icon-viber {
@@ -248,8 +248,8 @@ header {
 .icons__icon-viber:hover {
   -webkit-box-shadow: 0px 8px 14px rgba(123, 81, 157, 0.5);
           box-shadow: 0px 8px 14px rgba(123, 81, 157, 0.5);
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .icons__icon-telegram {
@@ -291,8 +291,8 @@ header {
 .icons__icon-telegram:hover {
   -webkit-box-shadow: 0px 8px 14px rgba(91, 186, 240, 0.5);
           box-shadow: 0px 8px 14px rgba(91, 186, 240, 0.5);
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .number-email-button-bell {
@@ -347,7 +347,7 @@ header {
           flex-direction: column;
 }
 
-@media (max-width: 410px) {
+@media (max-width: 411px) {
   .number-email {
     max-width: 100%;
     margin: 0 auto;
@@ -415,10 +415,6 @@ header {
   font-family: "Gilroy-Medium", sans-serif;
 }
 
-.button-bell-container-1 {
-  max-width: 195px;
-}
-
 @media (max-width: 411px) {
   .button-bell-container-1 {
     min-width: 100%;
@@ -429,31 +425,6 @@ header {
         -ms-flex-pack: center;
             justify-content: center;
   }
-}
-
-.button-bell-container-3 {
-  max-width: 211px;
-  max-height: 50px;
-}
-
-@media (max-width: 411px) {
-  .button-bell-container-3 {
-    min-width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-.button-bell-container-3__link {
-  max-height: 50px;
-}
-
-.button-bell-container-3__click {
-  max-width: 211px !important;
 }
 
 .button-bell-link {
@@ -492,8 +463,6 @@ header {
       -ms-flex-align: center;
           align-items: center;
   font-family: "Gilroy-Bold", sans-serif;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
 }
 
 @media (max-width: 992px) {
@@ -513,8 +482,6 @@ header {
 .button-bell-link__click:hover {
   -webkit-box-shadow: 0px 8px 14px rgba(232, 137, 82, 0.5);
           box-shadow: 0px 8px 14px rgba(232, 137, 82, 0.5);
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
 }
 
 .header__burger {
@@ -556,8 +523,8 @@ header {
 .header__link:hover {
   color: #6d81cc;
   font-weight: 500;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .header-container {
@@ -754,8 +721,6 @@ header {
       -ms-flex-align: center;
           align-items: center;
   font-family: "Gilroy-Bold", sans-serif;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
 }
 
 @media (max-width: 992px) {
@@ -781,8 +746,6 @@ header {
 .header-bottom__click:hover {
   -webkit-box-shadow: 0px 8px 14px rgba(108, 128, 203, 0.5);
           box-shadow: 0px 8px 14px rgba(108, 128, 203, 0.5);
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
 }
 
 .heading-question {

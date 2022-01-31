@@ -1,30 +1,27 @@
 header {
-	background-image: url("../img/Group_6.jpg");
+	background-image: none;
+	background-color: #f6f6f6;
 	max-width: 100%;
-	background-position: center 50%;
 	color: #333333;
-	display: block;
-
+	box-shadow: -3px 12px 30px -3px rgba(34, 60, 80, 0.11);
+	border-bottom: 1px solid rgba(34, 60, 80, 0.11);
 	@media (max-width: 767px) {
-		background-image: url("/img/Group\ new.jpg");
-		height: 600px;
+		height: 190px;
 	}
 	@media (max-width: 528px) {
-		background-color: #b3c9ff;
+		height: 270px;
 	}
-
 	@media (max-width: 411px) {
-		height: 655px;
-	}
-	@media (max-width: 356px) {
-		height: 695px;
+		height: 320px;
 	}
 }
-.container {
-}
+
 .header-body {
 	margin-top: 0px;
-	height: 724px;
+	height: 161px;
+	@media (max-width: 993px) {
+		min-height: 180px;
+	}
 }
 .header-top {
 	margin-top: 33px;
@@ -41,12 +38,10 @@ header {
 		height: 110px;
 		flex-wrap: wrap;
 	}
-
 	@media (max-width: 528px) {
 		flex-wrap: wrap;
 		height: 170px;
 	}
-
 	@media (max-width: 411px) {
 		height: 230px;
 	}
@@ -55,9 +50,7 @@ header {
 	display: flex;
 	min-width: 363px;
 	align-items: stretch;
-	border: none;
 	height: 42px;
-
 	@media (max-width: 528px) {
 		margin: 0 auto;
 		min-width: 160px;
@@ -104,6 +97,7 @@ header {
 }
 
 .icons {
+	//min-width: 363px;
 	display: flex;
 	justify-content: space-between;
 	min-width: 168px;
@@ -146,7 +140,7 @@ header {
 	}
 	&__icon-whatsapp:hover {
 		box-shadow: 0px 8px 14px rgba(45, 208, 56, 0.2 / 0.4);
-		transition-duration: 1s;
+		transition-duration: 0.5s;
 	}
 
 	&__icon-viber {
@@ -177,7 +171,7 @@ header {
 	}
 	&__icon-viber:hover {
 		box-shadow: 0px 8px 14px rgba(123, 81, 157, 0.2 / 0.4);
-		transition-duration: 1s;
+		transition-duration: 0.5s;
 	}
 
 	&__icon-telegram {
@@ -208,7 +202,7 @@ header {
 
 	&__icon-telegram:hover {
 		box-shadow: 0px 8px 14px rgba(91, 186, 240, 0.2/ 0.4);
-		transition-duration: 1s;
+		transition-duration: 0.5s;
 	}
 }
 
@@ -217,7 +211,6 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-
 	@media (max-width: 1152px) {
 		margin: 0 auto;
 	}
@@ -239,7 +232,7 @@ header {
 	min-width: 195px;
 	flex-direction: column;
 
-	@media (max-width: 410px) {
+	@media (max-width: 411px) {
 		max-width: 100%;
 		margin: 0 auto;
 		justify-content: center;
@@ -283,11 +276,6 @@ header {
 		}
 	}
 
-	// .number-email__icon-email
-
-	&__icon-email {
-	}
-
 	// .number-email__email-picture
 
 	&__email-picture {
@@ -310,34 +298,15 @@ header {
 }
 
 .button-bell-container-1 {
-	max-width: 195px;
-	// .button-bell__link
 	@media (max-width: 411px) {
 		min-width: 100%;
 		display: flex;
 		justify-content: center;
-	}
-}
-.button-bell-container-3 {
-	max-width: 211px;
-	max-height: 50px;
-	// .button-bell__link
-	@media (max-width: 411px) {
-		min-width: 100%;
-		display: flex;
-		justify-content: center;
-	}
-	&__link {
-		max-height: 50px;
-	}
-	&__click {
-		max-width: 211px !important;
 	}
 }
 
 .button-bell-link {
 	max-width: 100%;
-
 	@media (max-width: 411px) {
 		max-width: 100%;
 		display: flex;
@@ -357,7 +326,6 @@ header {
 		justify-content: center;
 		align-items: center;
 		font-family: "Gilroy-Bold", sans-serif;
-		transition-duration: 1s;
 		@media (max-width: 992px) {
 			min-width: 170px !important;
 			height: 39px !important;
@@ -370,7 +338,6 @@ header {
 	}
 	&__click:hover {
 		box-shadow: 0px 8px 14px rgba(232, 137, 82, 0.2/ 0.4);
-		transition-duration: 0.5s;
 	}
 }
 
@@ -402,7 +369,7 @@ header {
 .header__link:hover {
 	color: #6d81cc;
 	font-weight: 500;
-	transition-duration: 1s;
+	transition-duration: 0.5s;
 }
 .header-container {
 	display: flex;
@@ -426,7 +393,6 @@ header {
 		width: 50px;
 		height: 20px;
 		z-index: 3;
-		//left: 688px;
 	}
 	.header__burger span {
 		position: absolute;
@@ -498,7 +464,6 @@ header {
 }
 
 .header-bottom {
-	// .header-bottom__heading
 	margin-top: 63px;
 	display: flex;
 	flex-direction: column;
@@ -563,7 +528,6 @@ header {
 		justify-content: center;
 		align-items: center;
 		font-family: "Gilroy-Bold", sans-serif;
-		transition-duration: 1s;
 		@media (max-width: 992px) {
 			min-width: 170px !important;
 			height: 39px !important;
@@ -579,7 +543,6 @@ header {
 	}
 	&__click:hover {
 		box-shadow: 0px 8px 14px rgba(108, 128, 203, 0.2/ 0.4);
-		transition-duration: 1s;
 	}
 }
 .heading-question {
