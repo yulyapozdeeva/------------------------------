@@ -38,6 +38,18 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
 		integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
 		crossorigin="anonymous"></script>
+	<script src="js/mask.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+
+			const inputElement = document.querySelector('#phone') // ищем наш единственный input
+			const maskOptions = { // создаем объект параметров
+				mask: '+{7}(000) 000-00-00' // задаем единственный параметр mask
+			}
+			IMask(inputElement, maskOptions) // запускаем плагин с переданными параметрами
+
+		})
+	</script>
 </body>
 
 </html>
