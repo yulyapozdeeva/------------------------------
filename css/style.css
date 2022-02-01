@@ -6,7 +6,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #c2d3f0;
+  background: #f6f9ff;
   /* цвет фона у дорожки */
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
           box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
