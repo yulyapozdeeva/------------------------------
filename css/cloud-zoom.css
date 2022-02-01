@@ -2,8 +2,7 @@
 .cloud-zoom-lens {
   outline: 2px solid #888;
   background-color: #fff;
-  cursor: move;
-}
+  cursor: move; }
 
 /* This is for the title text. */
 .cloud-zoom-title {
@@ -16,27 +15,23 @@
   text-align: center;
   font-weight: bold;
   font-size: 10px;
-  top: 0px;
-}
+  top: 0px; }
 
 /* cloud zoom wrapper styles */
 .cloud-zoom-wrap {
   top: 0;
   z-index: 10000;
-  position: relative;
-}
+  position: relative; }
 
 /* This is the zoom window. */
 .cloud-zoom-big {
   outline: 2px solid #ccc;
   overflow: hidden;
-  z-index: 1000000 !important;
-}
+  z-index: 1000000 !important; }
 
 /* This is the loading message. */
 .cloud-zoom-loading {
   color: white;
   background: #222;
   padding: 3px;
-  border: 1px solid #000;
-}
+  border: 1px solid #000; }
